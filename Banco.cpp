@@ -88,5 +88,6 @@ cout << "El total de su carrito es " << parte++ <<endl;
 
 pino = tt2 - parte++;
 
+cout << "El saldo restante es " << pino << endl;
 
 }
