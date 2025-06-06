@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    int dui[9], cuenta[6], quemados, pistacho, sinquemar, newv, tt2;
+    int dui[9], cuenta[6], quemados, pistacho, sinquemar, newv, tt2, parte, tt1, pony, pino;
 
     quemados = 500000;
 
@@ -64,5 +64,29 @@ int main(){
 
 } while (newv == 1);
 return newv;
+
+do{
+cout <<"bienvenido a mecaduca"<<endl;
+
+cout <<"Que desea comprar hoy?"<<endl;
+cout <<"1. Flores $15 \n";
+cout <<"2. brownies $10 \n";
+cout <<"3. Dulces $5 \n";
+cout <<"4. churros $1 \n";
+
+cin >> parte;
+
+cout << "deseas llevar otro producto?"<<endl;
+cout <<"1. Si \n";
+cout <<"2. No \n";
+cin >> pony;
+
+}while(pony == 1);
+return parte;
+
+cout << "El total de su carrito es " << parte++ <<endl;
+
+pino = tt2 - parte++;
+
 
 }
